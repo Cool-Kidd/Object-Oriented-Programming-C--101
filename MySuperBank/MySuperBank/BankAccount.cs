@@ -68,6 +68,6 @@ namespace MySuperBank
             return report.ToString();   
         }
 
-
+        public virtual void PerformMonthEndTransactions() { }
     }
 }
